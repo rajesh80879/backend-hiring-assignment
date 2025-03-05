@@ -1,0 +1,222 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Modern Font */
+    background-color: #f0f8ff; /* Light Blue Background */
+}
+
+/* Navbar Styling */
+.custom-navbar {
+    background-color: #4682B4 !important; /* Steel Blue */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    transition: 0.3s ease-in-out;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b0e0e6 !important; /* Powder Blue */
+}
+
+/* Logout Button */
+.logout-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+    color: #ff6347 !important; /* Tomato Red */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #5F9EA0; /* Cadet Blue */
+    padding: 20px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    font-size: 1.1rem;
+}
+
+.sidebar-title {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sidebar .nav-item {
+    margin-bottom: 10px;
+}
+
+.sidebar .nav-link {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 1.2rem;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #87CEEB; /* Sky Blue */
+    padding-left: 15px;
+    color: #ffffff;
+}
+
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+    border-left: 2px solid #b0e0e6; /* Soft blue border */
+}
+
+
+/* Navbar Styling */
+.custom-navbar {
+    background-color: #4682B4 !important; /* Steel Blue */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Centered Navbar Title */
+.navbar-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff !important;
+    text-align: center;
+    display: block;
+}
+
+/* Welcome Text Styling */
+.welcome-text {
+    color: #f8f9fa; /* Light color */
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1); /* Subtle background */
+    transition: 0.3s ease-in-out;
+}
+
+/* Logout Button Styling */
+.logout-btn {
+    background-color: #dc3545; /* Red */
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+    background-color: #c82333; /* Darker Red */
+}
+
+.logout-form {
+    display: inline-block;
+}
+
+
+
+
+/* Sidebar Title */
+.sidebar-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Task Page Container */
+.task-container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Task Page Title */
+.task-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Add Task Button - Positioned on Right */
+.add-task-btn {
+    float: right;
+    margin-bottom: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Task Table Styling */
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-table thead {
+    background-color: #4682B4; /* Steel Blue */
+    color: white;
+}
+
+.task-table th, .task-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-table tbody tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* Edit & Delete Buttons */
+.edit-btn, .delete-btn {
+    font-size: 1.2rem;
+    margin: 0 8px;
+    transition: 0.3s ease-in-out;
+    color: #333;
+}
+
+.edit-btn:hover {
+    color: #007bff; /* Blue */
+}
+
+.delete-btn:hover {
+    color: #dc3545; /* Red */
+}
+
+
+.message-container:empty {
+    display: none !important;
+}
+
+
